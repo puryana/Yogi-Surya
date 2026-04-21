@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogi Surya Learning Center</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f9fbff;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        nav h2 {
+            color: #1e3a8a;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        /* Hero */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 50px;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #1e3a8a;
+        }
+
+        .hero p {
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 20px;
+            background: #f97316;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .hero img {
+            width: 400px;
+        }
+
+        /* Section */
+        .section {
+            padding: 60px 50px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #1e3a8a;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        /* CTA */
+        .cta {
+            background: #1e3a8a;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #eee;
+        }
+
+        /* Responsive */
+        @media(max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero img {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>YS Learning</h2>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Program</a>
+        <a href="#">Kontak</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Yogi Surya Learning Center</h1>
+        <p>Bimbingan belajar terbaik untuk membantu anak berkembang secara akademik dan digital.</p>
+        <a href="#" class="btn">Daftar Sekarang</a>
+    </div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="student">
+</section>
+
+<!-- Program -->
+<section class="section">
+    <h2>Program Kami</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>CALISTUNG</h3>
+            <p>Reguler & Private untuk membaca, menulis, dan berhitung.</p>
+        </div>
+
+        <div class="card">
+            <h3>CODING</h3>
+            <p>Belajar coding sejak dini (Reguler & Private).</p>
+        </div>
+
+        <div class="card">
+            <h3>SD</h3>
+            <p>Tematik, Bahasa Inggris, Matematika, Bahasa Bali.</p>
+        </div>
+
+        <div class="card">
+            <h3>SMP</h3>
+            <p>Bahasa Inggris, Matematika, IPA.</p>
+        </div>
+
+        <div class="card">
+            <h3>SMA</h3>
+            <p>Bahasa Inggris, Matematika, IPA.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Siap Meningkatkan Prestasi Anak?</h2>
+    <p>Daftar sekarang dan mulai belajar bersama kami!</p>
+    <a href="#" class="btn">Hubungi Kami</a>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Yogi Surya Learning Center</p>
+</footer>
+
+</body>
+</html>
